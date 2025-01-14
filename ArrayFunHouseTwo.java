@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -15,7 +15,11 @@ public class ArrayFunHouseTwo
 	//[9, 11, 13, 8]  returns false
 	public static boolean goingUp(int[] numArray)
 	{
-
+		for(int i: numArray)
+		{
+			if(i >i+1)
+			return false;
+		}
 		return true;
 	}
 
@@ -25,7 +29,11 @@ public class ArrayFunHouseTwo
 	//[31, 20, 10, 15, 9] returns false
 	public static boolean goingDown(int[] numArray)
 	{
-
+		for(int i: numArray)
+		{
+			if(i >i+1)
+			return false;
+		}
 		return true;
 	}
 
